@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--css link-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/individual.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variable.css">
+  <link rel="stylesheet" href="css/video.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!--fonts link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <!--icon link-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+ <!--bootstrap carousel css-->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+ <!--bootsrap  java-->
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <title>Coffe Whit Cine</title>
+</head>
+<body> 
+  <div class="container">
+   <!--header section-->
+    <header class="">
+      <div class="navbar">
+        <a href="#" class="navbar-brand">
+          <h1><i class="fa fa-coffee"><span>Whit</span></i>Cine</h1>
+        </a>
+        <nav>
+          <div class="nav-links" id="navLinks">
+            <i id="close-menu" class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="trailers.html">TRAILERS</a></li>
+              <li><a href="live.html">LIVE</a></li>
+              <li><a href="singin.html" class="navbar-signin">
+                <span>Sing in</span>
+                <i class="fa fa-sign-in"></i>
+              </a></li>
+            </ul>
+          </div>
+          
+        </nav>
+  
+        <div class="navbar-actions">
+          <form action="#" class="navbar-form ">
+            <input type="text" name="search" placeholder="I'm looking for.." class="navbar-form-search">
+            <button class="navbar-btn">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+          <i id="open-menu" class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+      </div>
+    </header>
+
+    <!--carousel section-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img id="banner1"  class="d-block w-100" >
+          <div class="carousel-caption d-none d-md-block">
+            <div class="card-content">
+              <div class="carousel-info">
+                <div class="genre">
+                  <i class="fa fa-film"></i>
+                  <span>Action/Thtiller</span>
+                </div>
+                <div class="year-carousel">
+                  <i class="fa fa-calendar"></i>
+                  <span>2022</span>
+                </div>
+                <div class="duration">
+                  <i class="fa fa-clock-o"></i>
+                  <span>3h 22m</span>
+                </div>
+                <div class="quality">
+                <i class="fa fa-video-camera"></i>
+                <span>4K</span>
+                </div>
+              </div>
+              <h2 class="carousel-title">Uncharted</h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img id="banner2" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="card-content">
+              <div class="carousel-info">
+                <div class="genre">
+                  <i class="fa fa-film"></i>
+                  <span>Action/Thtiller</span>
+                </div>
+                <div class="year-carousel">
+                  <i class="fa fa-calendar"></i>
+                  <span>2022</span>
+                </div>
+                <div class="duration">
+                  <i class="fa fa-clock-o"></i>
+                  <span>2h 06m</span>
+                </div>
+                <div class="quality">
+                <i class="fa fa-video-camera"></i>
+                <span>4K</span>
+                </div>
+              </div>
+              <h2 class="carousel-title">Doutor Estranho 2 - Multiverso da loucura</h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img id="banner3" class="d-block w-100" >
+          <div class="carousel-caption d-none d-md-block">
+            <div class="card-content">
+              <div class="carousel-info">
+                <div class="genre">
+                  <i class="fa fa-film"></i>
+                  <span>Action/Thtiller</span>
+                </div>
+                <div class="year-carousel">
+                  <i class="fa fa-calendar"></i>
+                  <span>2022</span>
+                </div>
+                <div class="duration">
+                  <i class="fa fa-clock-o"></i>
+                  <span>3h 22m</span>
+                </div>
+                <div class="quality">
+                <i class="fa fa-video-camera"></i>
+                <span>4K</span>
+                </div>
+              </div>
+              <h2 class="carousel-title">Buzz Lightyear</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--Movies section-->
+    <section class="movies">
+      <div class="filter-bar">
+
+        <div class="filter-dropdowns">
+          <select name="genre" class="genre">
+            <option value="all genres">All Genres</option>
+            <option value="action">Action</option>
+            <option value="adventure">Adventure</option>
+            <option value="animal">Animal</option>
+            <option value="animation">Animation</option>
+            <option value="anime">Animes</option>
+          </select>
+          <select name="year" class="year">
+            <option value="all years">All Years</option>
+            <option value="2022">2022</option>
+            <option value="2020-2021">2020-2021</option>
+            <option value="2010-2019">2010-2019</option>
+            <option value="2000-2009">2000-2009</option>
+            <option value="1980-1999">1980-1999</option>
+          </select>
+        </div>
+        <div class="filter-radios">
+          <input type="radio" name="grade" id="featured" checked>
+          <label  for="featured">Featured</label>
+  
+          <input type="radio" name="grade" id="popular" >
+          <label for="popular">Popular</label>
+  
+          <input type="radio" name="grade" id="newest" >
+          <label for="newest">Newest</label>
+
+          <div class="checked-radio-bg"></div>
+        </div>
+      </div>
+
+      <!--movies grid-->
+      <div class="movies-grid">
+  
+        <div class="movie-card">
+  
+          <div class="card-head">
+            <img src="images/movies/ww84.jpg" class="card-img" >
+  
+            <div class="card-overlay">
+              <div class="icon">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <span>4.6</span>
+                </div>
+                
+                <div class="play-woman">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+              </div>                                                             
+              </div>
+              <div class="video-container video-woman">
+                <div class="video-box">
+                  <iframe id="trailer-ww" width="560" height="315" src="https://www.youtube.com/embed/sfM7_JLk-84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                  <ion-icon class="close-video-woman" name="close-circle"></ion-icon>
+                </div>
+              </div>
+          </div>
+          <div class="card-body">
+            <a href="/wm.html"> <h3 class="card-title">Wonder Woman</h3>
+          </div></a>
+          <div class="card-info">
+          </div>
+        </div>
+        <div class="movie-card">
+  
+          <div class="card-head">
+            <img src="images/movies/1917.jpg" class="card-img" >
+  
+            <div class="card-overlay">
+              <div class="icon">
+                
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <span>4.6</span>
+                </div>
+                
+                <div class="play-1917">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+              </div>                                                             
+              </div>
+              <div class="video-container video-1917">
+                <div class="video-box">
+                  <iframe id="trailer-1917" width="560" height="315" src="https://www.youtube.com/embed/_3gy6K7LXHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <ion-icon class="close-video-1917" name="close-circle"></ion-icon>
+                </div>
+              </div>
+          </div>
+          <a href="/1917.html"><div class="card-body">
+            <h3 class="card-title">1917</h3>
+          </div></a>
+          <div class="card-info">
+          </div>
+        </div>
+        <div class="movie-card">
+  
+          <div class="card-head">
+            <img src="images/movies/venom.jpg" class="card-img" >
+  
+            <div class="card-overlay">
+              <div class="icon">
+                
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <span>4.6</span>
+                </div>
+                
+                <div class="play-venom">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+              </div>                                                             
+              </div>
+              <div class="video-container video-venom">
+                <div class="video-box">
+                  <iframe id="venom" width="560" height="315" src="https://www.youtube.com/embed/u9Mv98Gr5pY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <ion-icon class="close-video-venom" name="close-circle"></ion-icon>                  
+                </div>
+              </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Venom</h3>
+          </div>
+          <div class="card-info">
+          </div>
+        </div>
+        <div class="movie-card">
+  
+          <div class="card-head">
+            <img src="images/movies/spider-men.jpg" class="card-img" >
+  
+            <div class="card-overlay">
+              <div class="icon">
+                
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <span>4.6</span>
+                </div>
+                
+                <div class="play-spider">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+              </div>                                                             
+              </div>
+              <div class="video-container video-spider">
+                <div class="video-box">
+                  <iframe id="spider" width="560" height="315" src="https://www.youtube.com/embed/bHzGeci_8wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <ion-icon class="close-video-spider" name="close-circle"></ion-icon>
+                </div>
+              </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Spider Man</h3>
+          </div>
+          <div class="card-info">
+          </div>
+        </div>
+        <div class="movie-card">
+  
+          <div class="card-head">
+            <img src="images/movies/captain-marvel.jpg" class="card-img" >
+  
+            <div class="card-overlay">
+              <div class="icon">
+                
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <span>4.6</span>
+                </div>
+                
+                <div class="play-capitain">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+              </div>                                                             
+              </div>
+              <div class="video-container video-capitain">
+                <div class="video-box">
+                  <iframe id="capitain" width="560" height="315" src="https://www.youtube.com/embed/FV7AxLbHcrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <ion-icon class="close-video-capitain" name="close-circle"></ion-icon>
+                </div>
+              </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Capitain Marvel</h3>
+          </div>
+          <div class="card-info">
+          </div>
+        </div>
+        <div class="movie-card">
+  
+          <div class="card-head">
+            <img src="images/movies/casino-royale.jpg" class="card-img" >
+  
+            <div class="card-overlay">
+              <div class="icon">
+                
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <span>4.6</span>
+                </div>
+                
+                <div class="play-cassino">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+              </div>                                                             
+              </div>
+              <div class="video-container video-cassino">
+                <div class="video-box">
+                  <iframe id="trailer-cassino" width="560" height="315" src="https://www.youtube.com/embed/TjQzB0aCbm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <ion-icon class="close-video-cassino" name="close-circle"></ion-icon>
+                </div>
+              </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Cassino Royale</h3>
+          </div>
+          <div class="card-info">
+          </div>
+        </div>
+        <div class="movie-card">
+  
+          <div class="card-head">
+            <img src="images/movies/shang-chi.jpg" class="card-img" >
+  
+            <div class="card-overlay">
+              <div class="icon">
+                
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <span>4.6</span>
+                </div>
+                
+                <div class="play-shang">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+              </div>                                                             
+              </div>
+              <div class="video-container video-shang">
+                <div class="video-box">
+                  <iframe id="trailer-shang" width="560" height="315" src="https://www.youtube.com/embed/AfHiUtxrmiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <ion-icon class="close-video-shang" name="close-circle"></ion-icon>
+                </div>
+              </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Shang Chi</h3>
+          </div>
+          <div class="card-info">
+          </div>
+        </div>
+        <div class="movie-card">
+  
+          <div class="card-head">
+            <img src="images/movies/dark-knight.jpg" class="card-img" >
+  
+            <div class="card-overlay">
+              <div class="icon">
+                
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <span>4.6</span>
+                </div>
+                
+                <div class="play-dark">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+              </div>                                                             
+              </div>
+              <div class="video-container video-dark">
+                <div class="video-box">
+                  <iframe id="trailer-dark" width="560" height="315" src="https://www.youtube.com/embed/LDG9bisJEaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <ion-icon class="close-video-dark" name="close-circle"></ion-icon>
+                </div>
+              </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Dark Kinght</h3>
+          </div>
+          <div class="card-info">
+          </div>
+        </div>
+        
+       </div>
+        </div>
+      </div>
+      <a href="/trailers.html"><button  class="load-more">LOAD MORE</button></a>
+    </section>
+
+     <!--categories-->
+    <section class="category" id="category">
+      <h2 class="section-heading">Category</h2>
+
+      <div class="category-grid">
+
+        <div class="category-card">
+          <img src="images/action.jpg" class="card-img">
+          <div class="name">Action</div>
+          <div class="total">100</div>
+        </div>
+        <div class="category-card">
+          <img src="images/adventure.jpg" class="card-img">
+          <div class="name">Adventure</div>
+          <div class="total">70</div>
+        </div>
+        <div class="category-card">
+          <img src="images/animated.jpg" class="card-img">
+          <div class="name">Animated</div>
+          <div class="total">100</div>
+        </div>
+        <div class="category-card">
+          <img src="images/funny.jpeg" class="card-img">
+          <div class="name">Funny</div>
+          <div class="total">66</div>
+        </div>
+        <div class="category-card">
+          <img src="images/horror.jpg" class="card-img">
+          <div class="name">Horror</div>
+          <div class="total">25</div>
+        </div>
+        <div class="category-card">
+          <img src="images/crime.jpg" class="card-img">
+          <div class="name">Crime</div>
+          <div class="total">45</div>
+        </div>
+        <div class="category-card">
+          <img src="images/comedy.jpg" class="card-img">
+          <div class="name">Comedy</div>
+          <div class="total">73</div>
+        </div>
+        <div class="category-card">
+          <img src="images/sci-fi.jpg" class="card-img">
+          <div class="name">Sci-Fi</div>
+          <div class="total">60</div>
+        </div>
+      </div>
+    </section>
+    <button class="load-more">LOAD MORE</button>
+
+
+    <section class="live" id="live">
+
+      <h2 class="section-heading">Live TV Shows</h2>
+
+      <div class="live-grid">
+
+        <div class="live-card">
+
+          <div class="card-head-live">
+            <img src="images/vikins.jpg" class="card-img" alt="">
+            <div class="live-badge">LIVE</div>
+            <div class="total-viewers">495K viewers</div>
+            <div class="play-live">
+              <ion-icon name="play-circle-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="card-body-live">
+            <img src="images/HBO-Logo-square.jpg" class="avatar" alt="">
+            <h3 class="card-title-live">Vikins <br> Season III - Baby's pig</h3>
+          </div>
+        </div>
+        <div class="live-card">
+
+          <div class="card-head-live">
+            <img src="images/planet.jpg" class="card-img" alt="">
+            <div class="live-badge">LIVE</div>
+            <div class="total-viewers">305K viewers</div>
+            <div class="play-live">
+              <ion-icon name="play-circle-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="card-body-live">
+            <img src="images/bbcamerica.jpg" class="avatar" alt="">
+            <h3 class="card-title-live">Planet Earth II <br> Season IV - Islands</h3>
+          </div>
+        </div>
+        <div class="live-card">
+
+          <div class="card-head-live">
+            <img src="images/got.jpg" class="card-img" alt="">
+            <div class="live-badge">LIVE</div>
+            <div class="total-viewers">1M viewers</div>
+            <div class="play-live">
+              <ion-icon name="play-circle-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="card-body-live">
+            <img src="images/HBO-Logo-square.jpg" class="avatar" alt="">
+            <h3 class="card-title-live">Game Of Thrones <br> Season I - Piloto</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <button class="load-more">LOAD MORE</button>
+
+
+
+    <footer>
+      <div class="footer-content">
+
+        <div class="footer-brand">
+         <i class="fa fa-coffe" class="footer-logo" ></i>
+         <a href="index.html"><h1><i class="fa fa-coffee"><span>Whit</span></i>Cine</h1></a>
+
+         <div class="social-link">
+           <a href=""><i class="fa fa-facebook">Facebook</i></a>
+           <a href=""><i class="fa fa-github">Github</i></a>
+           <a href=""><i class="fa fa-instagram">Instagram</i></a>
+           <a href=""><i class="fa fa-linkedin">Linkedin</i></a>
+           <a href=""><i class="fa fa-twitter">Twitter</i></a>
+         </div>
+         <h3>Project By <i class="fa fa-user"></i> Dev Brito</h3>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </div>
+  <!--javascript-->
+  <script src="javascript/menu.js"></script>
+  <script src="javascript/open-video.js"></script>
+  <script src="javascript/close-video.js"></script>
+</body>
+</html>
