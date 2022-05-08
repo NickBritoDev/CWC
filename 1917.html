@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--css link-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/individual.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variable.css">
+  <link rel="stylesheet" href="css/video.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!--fonts link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <!--icon link-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+ <!--bootstrap carousel css-->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+ <!--bootsrap  java-->
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <title>Coffe Whit Cine</title>
+</head>
+<body> 
+  <div class="container">
+   <!--header section-->
+    <header class="">
+      <div class="navbar">
+        <a href="#" class="navbar-brand">
+          <h1><i class="fa fa-coffee"><span>Whit</span></i>Cine</h1>
+        </a>
+        <nav>
+          <div class="nav-links" id="navLinks">
+            <i id="close-menu" class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="trailers.html">TRAILERS</a></li>
+              <li><a href="live.html">LIVE</a></li>
+              <li><a href="singin.html" class="navbar-signin">
+                <span>Sing in</span>
+                <i class="fa fa-sign-in"></i>
+              </a></li>
+            </ul>
+          </div>
+          
+        </nav>
+  
+        <div class="navbar-actions">
+          <form action="#" class="navbar-form ">
+            <input type="text" name="search" placeholder="I'm looking for.." class="navbar-form-search">
+            <button class="navbar-btn">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+          <i id="open-menu" class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+      </div>
+    </header>
+
+<section class="large">
+  <div class="movie-card movie-card-large">
+  
+    <div class="card-head">
+      <img src="images/movies/1917.jpg" class="card-img" >
+
+      <div class="card-overlay">
+        <div class="icon">
+
+          <div class="bookmark">
+            <ion-icon name="bookmark-outline"></ion-icon>
+          </div>
+          
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <span>4.6</span>
+          </div>
+          
+          <div class="play-1917-large">
+            <ion-icon name="play-circle-outline"></ion-icon>
+          </div>
+        </div>                                                             
+        </div>
+        <div class="video-container video-1917-large">
+          <div class="video-box">
+            <iframe id="trailer-1917" width="560" height="315" src="https://www.youtube.com/embed/_3gy6K7LXHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <ion-icon class="close-video-1917-large" name="close-circle"></ion-icon>
+          </div>
+        </div>
+    </div>
+  <div class="individual-info">
+    <div class="genre">
+      <i class="fa fa-film"></i>
+      <span>Action/Thtiller</span>
+    </div>
+    <div class="year-carousel">
+      <i class="fa fa-calendar"></i>
+      <span>2022</span>
+    </div>
+    <div class="duration">
+      <i class="fa fa-clock-o"></i>
+      <span>3h 22m</span>
+    </div>
+    <div class="quality">
+    <i class="fa fa-video-camera"></i>
+    <span>4K</span>
+    </div>
+  </div>
+  <section class="individual-information">
+    <div class="title-individual">
+      <h1>- 1917 -</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui sit modi, velit in molestias dicta deleniti aspernatur dolor dolorem asperiores exercitationem totam rem commodi soluta, et similique explicabo eos excepturi. Sint iusto quod praesentium maiores officiis fuusdam ea placeat nobis vnulla sapiente illum iure! Nihil, assumenda. Obcaecati dicta sunt blanditiis et inventore ex nostrum officiis ut, adipisci vero dolores ea esse, voluptates dolorum dolore vel.</p>
+    </div>
+  </section>
+</section>
+<a href="trailers.html"><button  class="load-more">Return</button></a>
+</div>
+
+
+
+
+
+  <!--javascript-->
+  <script src="javascript/individual-page-video.js"></script>
+  <script src="javascript/menu.js"></script>
+  <script src="javascript/open-video.js"></script>
+  <script src="javascript/close-video.js"></script>
+</body>
+</html>
