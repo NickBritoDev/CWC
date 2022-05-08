@@ -1,0 +1,159 @@
+/*VIDEO AREA*/
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+}
+
+.video-container.show-video {
+  display: flex;
+}
+
+.video-box {
+  position: relative;
+  width: 82%;
+}
+
+.video-box #trailer-1917 {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #venom {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #venom {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #capitain {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #spider {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-ww {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-cassino {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-shang {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-dark {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-red {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-panther {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+/*icons video area*/
+.play,
+.play-1917,
+.play-venom,
+.play-capitain,
+.play-spider,
+.play-woman,
+.play-cassino,
+.play-shang,
+.play-dark,
+.play-red,
+.play-panther,
+.play-dune {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.movie-card .play ion-icon,
+.movie-card .play-1917 ion-icon,
+.movie-card .play-venom ion-icon,
+.movie-card .play-capitain ion-icon,
+.movie-card .play-spider ion-icon,
+.movie-card .play-woman ion-icon,
+.movie-card .play-cassino ion-icon,
+.movie-card .play-dark ion-icon,
+.movie-card .play-red ion-icon,
+.movie-card .play-panther ion-icon,
+.movie-card .play-shang ion-icon,
+.movie-card .play-dune ion-icon {
+  font-size: 60px;
+  color: aliceblue;
+}
+
+.close-video-woman,
+.close-video-venom,
+.close-video-1917,
+.close-video-spider,
+.close-video-capitain,
+.close-video-cassino,
+.close-video-shang,
+.close-video-dark,
+.close-video-red,
+.close-video-panther {
+  color: aliceblue;
+  font-size: 45px;
+  padding-left: 50%;
+}
+
+/*large */
+.play-1917-large,
+.play-woman-large {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.close-video-woman-large,
+.close-video-1917-large {
+  color: aliceblue;
+  font-size: 45px;
+  padding-left: 50%;
+}
+
+.movie-card .play-woman-large ion-icon,
+.movie-card .play-1917-large ion-icon {
+  font-size: 60px;
+  color: aliceblue;
+}

@@ -1,0 +1,25 @@
+/*wm area*/
+.large {
+  display: flex;
+  margin: 35px 0 50px 25%;
+  width: 50%;
+  height: 50%;
+}
+
+.individual-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.individual-info i {
+  color: aliceblue;
+}
+
+.title-individual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}

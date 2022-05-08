@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.4s ease;
+  font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: aliceblue;
+}
+
+body {
+  background: linear-gradient(to right, #e52d27, #b31217);
+  color: aliceblue;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  object-fit: cover;
+}
+
+input,
+button,
+select {
+  font: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button {
+  color: aliceblue;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: aliceblue;
+}
+
+::-webkit-scrollbar {
+  background: #b31217;
+  border-left: 1px solid black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e52d27;
+  border-radius: 3px;
+  border: 3px solid black;
+}
