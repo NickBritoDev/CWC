@@ -32,11 +32,6 @@
   height: 82%;
 }
 
-.video-box #venom {
-  width: 100%;
-  aspect-ratio: 16/9;
-  height: 82%;
-}
 
 .video-box #capitain {
   width: 100%;
@@ -86,6 +81,61 @@
   height: 82%;
 }
 
+.video-box #trailer-dune {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-endgame {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-gladiator {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-ryan {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-lotr {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-eternals {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-interstellar {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-matrix {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+.video-box #trailer-cassino {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: 82%;
+}
+
+
 /*icons video area*/
 .play,
 .play-1917,
@@ -98,7 +148,14 @@
 .play-dark,
 .play-red,
 .play-panther,
-.play-dune {
+.play-dune,
+.play-endgame,
+.play-gladiator,
+.play-ryan,
+.play-lotr,
+.play-eternals,
+.play-interstellar,
+.play-matrix {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -116,7 +173,14 @@
 .movie-card .play-red ion-icon,
 .movie-card .play-panther ion-icon,
 .movie-card .play-shang ion-icon,
-.movie-card .play-dune ion-icon {
+.movie-card .play-dune ion-icon,
+.movie-card .play-endgame ion-icon,
+.movie-card .play-gladiator ion-icon,
+.movie-card .play-ryan ion-icon,
+.movie-card .play-lotr ion-icon,
+.movie-card .play-eternals ion-icon,
+.movie-card .play-interstellar ion-icon,
+.movie-card .play-matrix ion-icon {
   font-size: 60px;
   color: aliceblue;
 }
@@ -130,7 +194,15 @@
 .close-video-shang,
 .close-video-dark,
 .close-video-red,
-.close-video-panther {
+.close-video-panther,
+.close-video-dune,
+.close-video-endgame,
+.close-video-gladiator,
+.close-video-ryan,
+.close-video-lotr,
+.close-video-eternals,
+.close-video-interstellar,
+.close-video-matrix {
   color: aliceblue;
   font-size: 45px;
   padding-left: 50%;
@@ -138,7 +210,24 @@
 
 /*large */
 .play-1917-large,
-.play-woman-large {
+.play-woman-large,
+.play-venom-large,
+.play-1917-large,
+.play-spider-large,
+.play-capitain-large,
+.play-cassino-large,
+.play-shang-large,
+.play-dark-large,
+.play-red-large,
+.play-panther-large,
+.play-dune-large,
+.play-endgame-large,
+.play-ryan-large,
+.play-lotr-large,
+.play-eternals-large,
+.play-interstellar-large,
+.play-matrix-large,
+.play-gladiator-large {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -146,14 +235,46 @@
 }
 
 .close-video-woman-large,
-.close-video-1917-large {
+.close-video-1917-large,
+.close-video-venom-large,
+.close-video-spider-large,
+.close-video-capitain-large,
+.close-video-cassino-large,
+.close-video-shang-large,
+.close-video-dark-large,
+.close-video-red-large,
+.close-video-panther-large,
+.close-video-dune-large,
+.close-video-endgame-large,
+.close-video-gladiator-large,
+.close-video-ryan-large,
+.close-video-lotr-large,
+.close-video-eternals-large,
+.close-video-interstellar-large,
+.close-video-matrix-large {
   color: aliceblue;
   font-size: 45px;
   padding-left: 50%;
 }
 
 .movie-card .play-woman-large ion-icon,
-.movie-card .play-1917-large ion-icon {
+.movie-card .play-1917-large ion-icon,
+.movie-card .play-venom-large ion-icon,
+.movie-card .play-spider-large ion-icon,
+.movie-card .play-capitain-large ion-icon,
+.movie-card .play-cassino-large ion-icon,
+.movie-card .play-shang-large ion-icon,
+.movie-card .play-dark-large ion-icon,
+.movie-card .play-red-large ion-icon,
+.movie-card .play-panther-large ion-icon,
+.movie-card .play-dune-large ion-icon,
+.movie-card .play-endgame-large ion-icon,
+.movie-card .play-gladiator-large ion-icon,
+.movie-card .play-ryan-large ion-icon,
+.movie-card .play-lotr-large ion-icon,
+.movie-card .play-eternals-large ion-icon,
+.movie-card .play-interstellar-large ion-icon,
+.movie-card .play-matrix-large ion-icon {
   font-size: 60px;
   color: aliceblue;
 }
